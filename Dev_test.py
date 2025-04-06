@@ -1,4 +1,4 @@
-hungry = input("Are you hungery tyoe 'yes' or 'no': ")
+hungry = input("Are you hungery type 'yes' or 'no': ")
 
 if hungry == 'yes':
     print('Eat Pizza')
@@ -6,4 +6,8 @@ if hungry == 'yes':
     print("Sameline")
 
 else:
-    print("Do your homework")
+    thirsty  = input("Are you thirsty?")
+    if thirsty == 'yes':
+        print("drink water")
+    else:
+        print("Do your homework")
